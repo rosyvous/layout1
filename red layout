@@ -1,0 +1,311 @@
+html {
+background:url(https://i.ibb.co/X8bbyFS/KEVIN-T-O-3.png);
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
+cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1135.png), auto;
+}
+
+body{
+margin-top:490px;
+background: url(https://i.imgur.com/QctZ6Zo.png);
+background-repeat:no-repeat;
+background-position:top center;
+background-size: 1000px;
+font-family:times new roman;
+}
+
+.url {
+    background: url(https://i.imgur.com/Xn8fJvw.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+    font-size:0;
+    width:1000px;
+    height:420px;
+    position: absolute;
+    top: 70px;
+}
+
+h2 {
+font-family: MS gothic;
+text-align: center;
+text-shadow: 0px 0px 5px;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #e50000, 0 0 15px #e50000, 0 0 20px #e50000, 0 0 30px #e50000, 0 0 40px #e50000;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e50000, 0 0 40px #e50000, 0 0 50px #e50000, 0 0 60px #e50000, 0 0 70px #e50000, 0 0 80px #e50000;
+  }
+}
+
+a {
+font-family: MS gothic;
+color: #e50000;
+}
+
+div#hSub {
+    text-align: center;
+    font-family: "monospace";
+    opacity: 0.5;
+    background: #fff;
+color: silver;
+}
+
+#hSub a {
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+a.logo {
+    color:black;
+}
+
+#header a {
+    color: #000;
+}
+
+div#header {
+    color: black;
+    background-color: white;
+    background-image: url();
+    opacity: 0.5;
+    text-align: center;
+    font-family: MS gothic;
+    border-bottom: 1px dashed gray;
+}
+
+.avatar {
+    border: 1px solid #e50000;
+    box-shadow: 1px 1px 20px 1px gray;
+    image-rendering: auto;
+}
+
+.boxHead {
+    background: silver;
+    color: white;
+    text-align: center;
+    display:none;
+}
+
+.boxInfo {
+    border: 0px dashed silver;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px;
+}
+
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 10px;
+    height: 24px;
+    font-size: small;
+    color: black;
+    padding-top: 5px;
+}
+
+.player {
+    padding: 4px;
+    margin:auto;
+    background: transparent;
+    color: white;
+    width: 13%;
+    border: 0px;
+    opacity: 0.5;
+text-align:center;
+}
+
+.songName {
+    display:none;
+}
+
+.extended {
+    border: 0px solid #000;
+    text-shadow: 0px 0px 5px;
+}
+
+#report {
+display:none;
+}
+
+.rightHead {
+    background: transparent;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    background-image: url(https://i.imgur.com/9e7y77B.png);
+    background-size: cover;
+    
+}
+
+.blogs {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: gray;
+    font-size: small;
+    text-decoration: none;
+}
+
+.box {
+text-align: center;
+}
+
+h4 {
+    color: #e50000;
+}
+.fwiendCount {
+    color: #e50000;
+}
+
+.fwiendFace img {
+    color: #e50000;
+    width: 70%;
+    border: 1px dashed silver;
+    height: 90px;
+    object-fit: cover;
+    padding: 3px;
+    background: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-shadow: 0px 0px 5px;
+-webkit-filter: grayscale(100%);
+}
+
+.fwiendFace img:hover {
+filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.tableLeft img {
+-webkit-filter: grayscale(100%);
+border: 1px solid silver;
+font-size: 0;
+height: 100px;
+margin-bottom: 5px;
+margin-right: 5px;
+max-width: 100vw;
+width: 100px;
+}
+
+.tableLeft img:hover {
+filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://cur.glitter-graphics.net/pub/79/79817mmwi4517h7.gif);
+    font-size:0;
+}
+
+#add {
+    background-repeat: no-repeat;
+    background-image: url(https://cur.glitter-graphics.net/pub/79/79817mmwi4517h7.gif);
+    font-size:0;
+}
+
+#block {
+    display:none;
+}
+
+.tableRight {
+    background: none;
+    border-bottom: 1px dashed silver;
+}
+
+.tableLeft {
+    background: none;
+    border-bottom: 1px dashed silver;
+}
+
+.tableLeft a{
+    color:#e50000;
+    text-shadow: 0px 0px 5px;
+}
+
+#commentInput {
+    outline: none;
+    box-shadow: 1px 1px 20px 1px gray;
+    border: 1px dashed #e50000;
+    font-family: ms gothic;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+    width: 500px;
+    height: 25px;
+    opacity: 0.9;
+    color:white;
+    background:TRANSPARENT;
+    text-shadow: 1px 0px 5px #000;
+}
+
+#commentInput:focus {
+    background-color: #ffcccb;
+}
+
+#top a {
+   color: #e50000;
+   text-shadow: 0px 0px 5px;
+}
+
+.topLeft {
+   text-align: center;
+
+}
+
+.shortRight {
+   width:200px;
+}
+
+.short {
+background: url(http://3.bp.blogspot.com/-EqcwZdE6Y0E/UOsk6I3pcVI/AAAAAAAAAXI/V23qqTxLgzw/s1600/1.png);
+background-position: right bottom;
+background-size:80%; 
+}
+
+.blurbs {
+background-repeat: no-repeat;
+background-position: left bottom;
+background-size:40%;
+}
+
+#sMsg::after {
+    content: "say hi";
+    font-size: 13px;
+    color: black;
+}
+
+#add::after {
+    content: "add me:)";
+    font-size: 13px;
+    color: black;
+}
+
+#gender {
+     font-size:0;
+}
+
+#gender::after {
+   content: "any pronouns:)";
+   font-size:15px;
+}
+
+.blog {
+    background-color: transparent;
+    padding: 15px;
+}
+
+#form {
+    text-align:center;
+}
