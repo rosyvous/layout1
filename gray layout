@@ -29,7 +29,7 @@ h2 {
     text-align: center;
     text-shadow: 0px 0px 5px;
     animation: glow 1s ease-in-out infinite alternate;
-    color:#8a83b0;
+    color:#ff0000;
     text-transform:capitalize;
     font-weight:normal;
     margin-top:-3px;
@@ -42,14 +42,13 @@ h4 {
 
 a {
     font-family: serif;
-    color: #8a83b0;
+    color: #ff0000;
     text-shadow: 0px 0px 5px;
 }
 
 a.logo {
     color: #fff;
 }
-
 #hSub a {
     color: #c2c2c2;
     text-decoration: none;
@@ -68,10 +67,11 @@ div#header {
     color: black;
     background-color: #000;
     opacity: 0.5;
-    text-align: center;
-    font-family: serif;
     border-bottom: 1px solid #000;
+    text-align:center;
 }
+
+
 
 #avatar {
     border: 1px solid #202020;
@@ -150,7 +150,7 @@ div#header {
     display: inline-block;
     font-size: small;
     color: white;
-    width: 15%;
+    width: 30%;
 }
 
 #report {
@@ -176,13 +176,13 @@ display:none;
 }
 
 #sMsg::after {
-    content: "say hi";
+    content: "mail me";
     font-size: 13px;
     color: white;
 }
 
 #add::after {
-    content: "add me:)";
+    content: "let's be friends";
     font-size: 13px;
     color: white;
 }
@@ -199,15 +199,6 @@ text-align:center;
 
 .songName {
     display:none;
-}
-
-#gender {
-     font-size:0;
-}
-
-#gender::after {
-     content: "any pronouns:)";
-     font-size:15px;
 }
 
 .blogCard {
@@ -234,7 +225,7 @@ text-align:center;
 input {
      height:35px;
      width:50px;
-     background: #8a83b0;
+     background: #ff0000;
      border:0px;
 }
 
@@ -270,16 +261,16 @@ input {
 }
 
 .tableLeft a{
-    color:#8a83b0;
+    color:#ff0000;
     text-shadow: 0px 0px 5px;
 }
 
 .fwiendCount {
-    color: #8a83b0;
+    color: #ff0000;
 }
 
 .fwiendFace img {
-    color: #8a83b0;
+    color: #ff0000;
     width: 70%;
     border: 1px solid #303030;
     height: 90px;
